@@ -2,6 +2,8 @@
 
 # Cloudflare Worker + Google Gemini Starter Kit
 
+https://github.com/rahulsuresh-git/cloudflare-worker-gemini-starter-kit
+
 Harness Google Gemini AI's power with a no-cost scalable backend API, and all the benefits of Cloudflare's AI Gateway! Comes with instant setup, DDOS protection, built-in rate limiting, and efficient caching—all in just one click.
 
 This starter kit helps you deploy a backend endpoint for Google Gemini AI through Cloudflare's serverless infrastructure.
