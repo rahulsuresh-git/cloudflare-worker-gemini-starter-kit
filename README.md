@@ -6,14 +6,33 @@ Harness Google Gemini AI's power with a no-cost scalable backend API, and all th
 
 This starter kit helps you deploy a backend endpoint for Google Gemini AI through Cloudflare's serverless infrastructure.
 
+#### Example Usage
+
+Input
+
+```
+curl 'https://<your-cloudflare-worker-url>/?prompt=What%20is%20life?'
+```
+
+Output
+
+```
+{
+    "success": true,
+    "response": "\"Life\" is a complex and multifaceted concept that has been pondered by philosophers, scientists."
+}
+```
+
 ## Features
 
 ✅ Serverless (No downtime!) \
 ✅ Free-of-cost (No Credit Card!) \
-✅ DDOS Protection \
-✅ Rate Limiting \
-✅ Caching \
-✅ Secure
+✅ Large context and token limit! \
+✅ DDOS Protection! \
+✅ Rate Limiting! \
+✅ Real-time logs!
+✅ Caching! \
+✅ Secure!
 
 ## Why do we need this?
 
@@ -59,7 +78,9 @@ This starter kit addresses these common problems by leveraging Cloudflare Worker
 
 - Deploy your worker again to apply the changes.
 
-- Test your API by running `curl 'http://<your-worker-url>/?prompt=What%20is%20life?' ` on your terminal. You should see the response from Gemini! 🎉
+- Test your API by running `curl 'https://<your-cloudflare-worker-url>/?prompt=What%20is%20life?' ` on your terminal. You should see the response from Gemini! 🎉
+
+- Configure rate limiting and caching on the Cloudflare AI Gateway dashboard.
 
 ## Run Locally
 
