@@ -59,7 +59,7 @@ This starter kit addresses these common problems by leveraging Cloudflare Worker
 
 - Deploy your worker again to apply the changes.
 
-- Test your API by hitting `curl 'http://<your-worker-url>/?prompt=What%20is%20life?' `
+- Test your API by running `curl 'http://<your-worker-url>/?prompt=What%20is%20life?' ` on your terminal. You should see the response from Gemini! 🎉
 
 ## Run Locally
 
