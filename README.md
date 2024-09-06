@@ -26,11 +26,11 @@ Output
 ## Features
 
 ✅ Serverless (No downtime!) \
-✅ Free-of-cost (No Credit Card!) \
+✅ Free-of-cost (No Credit Card - perfect for hackathons and developers!) \
 ✅ Large context and token limit! \
 ✅ DDOS Protection! \
 ✅ Rate Limiting! \
-✅ Real-time logs!
+✅ Real-time logs! \
 ✅ Caching! \
 ✅ Secure!
 
